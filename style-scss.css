@@ -427,12 +427,12 @@
 .advertising button:nth-child(3) {
   margin-left: 65px;
 }
-.advertising p:last-child {
+.advertising .sponsor {
   color: grey;
   margin: 5px;
   text-align: right;
 }
-.advertising p:last-child:last-child::after {
+.advertising .sponsor:last-child::after {
   content: url(./img/iii.png);
   vertical-align: middle;
 }
