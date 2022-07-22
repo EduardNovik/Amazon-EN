@@ -93,7 +93,7 @@
 
 .container {
   display: flex;
-  width: 1470px;
+  width: 1520px;
   margin: 0 auto;
   align-items: flex-start;
 }
@@ -425,7 +425,7 @@
   text-align: center;
 }
 .advertising button:nth-child(3) {
-  margin-left: 65px;
+  margin-left: 75px;
 }
 .advertising .sponsor {
   color: grey;

@@ -107,7 +107,7 @@
 
 .container {
     display: flex;
-    width: 1470px;
+    width: 1520px;
     margin: 0 auto;
     align-items:flex-start;
     
@@ -603,7 +603,7 @@
 
     button:nth-child(3) {
         @extend %button-white;
-        margin-left: 65px;
+        margin-left: 75px;
     }
 
     .sponsor {
