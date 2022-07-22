@@ -1,0 +1,473 @@
+.gen_info span:last-child, .product_description p:nth-child(5), .product_description p:nth-child(2), .gen_info ul li, .specification tr td:last-child, .specification tr td:first-child, .gen_info p:nth-child(12), .gen_info p:nth-child(10), .gen_info p:nth-child(8), .gen_info p:nth-child(6) {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.advertising button:nth-child(3), .delivery button:nth-child(2) {
+  background-color: white;
+  border: 1px solid rgb(206, 206, 206);
+  width: auto;
+  height: 30px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.advertising button:hover:nth-child(3), .delivery button:hover:nth-child(2) {
+  background-color: rgb(244, 248, 250);
+}
+
+.configuration button:nth-child(2), .pattern button:nth-child(1), .style button:last-child, .size button:last-child {
+  box-sizing: border-box;
+  background-color: rgb(255, 248, 245);
+  border: 1px solid orange;
+  height: 30px;
+  width: 65px;
+  padding: 5px 10px 5px 11px;
+}
+.configuration button:hover:nth-child(2), .pattern button:hover:nth-child(1), .style button:hover:last-child, .size button:hover:last-child {
+  cursor: pointer;
+}
+.configuration button:nth-child(2) p, .pattern button:nth-child(1) p, .style button:last-child p, .size button:last-child p {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  color: black;
+}
+
+.configuration button:nth-child(1), .style button:nth-child(2), .style button:nth-child(1), .size button:first-child {
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px dashed lightgrey;
+  height: 30px;
+  width: 90px;
+}
+.configuration button:nth-child(1) p, .style button:nth-child(2) p, .style button:nth-child(1) p, .size button:first-child p {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  color: rgb(184, 184, 184);
+}
+.configuration button:nth-child(1) p:hover, .style button:nth-child(2) p:hover, .style button:nth-child(1) p:hover, .size button:first-child p:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.pattern button:nth-child(4), .pattern button:nth-child(3), .pattern button:nth-child(2) {
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid lightgrey;
+  height: 30px;
+  width: 90px;
+}
+.pattern button:nth-child(4) p, .pattern button:nth-child(3) p, .pattern button:nth-child(2) p {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  color: black;
+}
+.pattern button:hover:nth-child(4), .pattern button:hover:nth-child(3), .pattern button:hover:nth-child(2) {
+  cursor: pointer;
+  background-color: rgb(240, 239, 239);
+}
+
+.delivery a, .gen_info a {
+  color: #168342;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.delivery a:hover, .gen_info a:hover {
+  color: rgb(194, 12, 12);
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  width: 1470px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.pic-column {
+  list-style: none;
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+.pic-column li {
+  margin-right: 7px;
+  margin-bottom: 4px;
+}
+.pic-column li img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.pic-column li img:hover {
+  box-sizing: content-box;
+  border: 1px solid orange;
+  box-shadow: 0.5px 0.5px 15px orange;
+}
+.pic-column li P {
+  font-family: sans-serif;
+  font-size: 8px;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.bigpic {
+  margin-right: 25px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+.bigpic p {
+  text-align: center;
+  font-family: sans-serif;
+  color: grey;
+  margin: 0;
+}
+.bigpic a {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  background-image: url("./img/share.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.bigpic img {
+  width: 680px;
+  height: 680px;
+}
+
+.gen_info {
+  max-width: 435px;
+  width: 100%;
+}
+.gen_info h1 {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+.stars {
+  display: flex;
+  gap: 7px;
+  justify-items: center;
+}
+.stars select {
+  -moz-appearance: none;
+  border-style: none;
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+  margin: 0;
+  color: #168342;
+}
+
+.amazon_choice {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+.amazon_choice b {
+  background-color: black;
+}
+.amazon_choice b:first-child {
+  background-color: rgb(44, 44, 44);
+  color: white;
+  box-sizing: border-box;
+  padding: 4px;
+  height: 22px;
+  vertical-align: middle;
+  font-size: 12px;
+  padding-left: 8px;
+}
+.amazon_choice b:nth-child(2) {
+  background-color: rgb(44, 44, 44);
+  color: orange;
+  box-sizing: border-box;
+  padding: 4px;
+  height: 22px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+.amazon_choice p {
+  background-color: rgb(44, 44, 44);
+  width: 10px;
+  height: 22px;
+  margin-right: 5px;
+  -webkit-clip-path: polygon(0px 22px, 10px 0px, 0px 0px, 0px 0);
+          clip-path: polygon(0px 22px, 10px 0px, 0px 0px, 0px 0);
+}
+
+.climate {
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  height: 30px;
+  box-sizing: border-box;
+}
+.climate img {
+  width: 26px;
+  height: 18px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.climate a:hover {
+  color: #168342;
+  text-decoration: none;
+}
+
+.size button {
+  margin-right: 5px;
+}
+.size button:last-child {
+  width: auto;
+}
+.style button {
+  margin-right: 5px;
+}
+.style button:nth-child(1) {
+  width: auto;
+}
+.style button:nth-child(2) {
+  width: auto;
+}
+.style button:last-child {
+  width: auto;
+}
+
+.pattern button {
+  margin-right: 5px;
+}
+.pattern button:nth-child(1) {
+  width: auto;
+}
+.pattern button:nth-child(2) {
+  width: auto;
+}
+.pattern button:nth-child(3) {
+  width: auto;
+}
+.pattern button:nth-child(4) {
+  width: auto;
+}
+
+.configuration button {
+  margin-right: 5px;
+  margin-bottom: 14px;
+}
+.configuration button:nth-child(1) {
+  width: auto;
+}
+.configuration button:nth-child(2) {
+  width: auto;
+}
+
+.specification tr {
+  height: 24px;
+}
+.specification tr td:first-child {
+  width: 105px;
+  line-height: 20px;
+  vertical-align: top;
+  padding: 3px;
+  padding-left: 0px;
+}
+.specification tr td:last-child {
+  width: auto;
+  line-height: 20px;
+  vertical-align: top;
+  padding: 3px;
+  padding-right: 0px;
+}
+
+.gen_info a:nth-child(15)::before {
+  content: "^";
+  margin-right: 5px;
+  vertical-align: middle;
+  display: inline-block;
+  color: black;
+}
+
+.gen_info h3 {
+  border-top: 1px solid rgb(224, 224, 224);
+  box-sizing: border-box;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.gen_info ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+.gen_info ul li {
+  line-height: 20px;
+}
+
+.gen_info a:nth-child(18)::before {
+  content: "^";
+  margin-right: 5px;
+  vertical-align: top;
+  display: inline-block;
+  transform: rotate(180deg);
+  color: black;
+}
+
+.price {
+  margin-top: 30px;
+}
+.price span {
+  color: rgb(194, 12, 12);
+}
+
+.product_available {
+  display: flex;
+  align-items: flex-start;
+}
+.product_available img:first-child {
+  margin-right: 10px;
+}
+
+.product_description a {
+  margin-top: 250px;
+}
+.product_description p:nth-child(2) {
+  margin: 0;
+  color: rgb(194, 12, 12);
+}
+.product_description p:nth-child(5) {
+  margin: 0;
+  color: rgb(100, 100, 100);
+  margin-bottom: 20px;
+}
+.product_description a:last-child {
+  font-style: normal;
+}
+.product_description picture {
+  vertical-align: top;
+}
+
+#available {
+  margin-bottom: 10px;
+}
+
+.gen_info span:last-child {
+  line-height: 20px;
+}
+
+.delivery {
+  border: 1px solid rgb(206, 206, 206);
+  width: 240px;
+  height: 150px;
+  padding: 14px 18px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.delivery a {
+  text-decoration: none;
+  font-size: 12px;
+}
+.delivery a:hover {
+  text-decoration: none;
+}
+.delivery a::before {
+  content: url(./img/Location3.png);
+  margin-right: 8px;
+  vertical-align: text-top;
+}
+.delivery button:nth-child(2) {
+  width: 200px;
+}
+.delivery div {
+  border-top: 1px solid rgb(206, 206, 206);
+  padding-top: 15px;
+}
+.delivery button:last-child {
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 200px;
+  height: 30px;
+  text-align: left;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(241, 239, 239);
+}
+
+.advertising {
+  margin-left: 25px;
+}
+.advertising p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: 60px;
+  text-align: center;
+}
+.advertising button:nth-child(3) {
+  margin-left: 65px;
+}
+.advertising p:last-child {
+  color: grey;
+  margin: 5px;
+  text-align: right;
+}
+.advertising p:last-child:last-child::after {
+  content: url(./img/iii.png);
+  vertical-align: middle;
+}
+
+.adv_block {
+  border: 1px solid rgb(206, 206, 206);
+  cursor: pointer;
+}
+.adv_block p {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.adv_block img {
+  padding-left: 25px;
+  margin-top: 5px;
+  vertical-align: bottom;
+}
+.adv_block i {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+}
+.adv_block p:last-child {
+  color: rgb(194, 12, 12);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.adv_block p:last-child b {
+  font-size: 25px;
+  vertical-align: top;
+  font-weight: 500;
+}
+.adv_block p:last-child::after {
+  content: url("./img/prime.JPG");
+  vertical-align: bottom;
+}/*# sourceMappingURL=style-scss.css.map */
